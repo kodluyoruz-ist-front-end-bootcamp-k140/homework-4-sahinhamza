@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,37 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  height: 100vh;
+  background: #1F4690;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#root .container {
+  width: 300px;
+  background: #FFA500;
+  padding: 50px;
+    border-radius: 15px;
+}
+
+#root .container .form-row {
+  flex-direction: column;
+  display: flex;
+}
+
+#root .container .form-row label {
+    margin-bottom: 5px;
+}
+
+#root .container .form-row input {
+  height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
